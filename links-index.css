@@ -7,7 +7,7 @@ div.links {
 	width: 680px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 30px;
+	padding-top: 40px;
 box-sizing: border-box;
 
 }
@@ -47,6 +47,13 @@ line-height: 135%;
 letter-spacing: 0.25em;
 text-transform: uppercase;
 display: block;
+}
+
+h1 {
+
+	margin-top: 25px;
+	font-size: 32px;
+	font-weight: bold;
 }
 
 h1, span {
@@ -112,7 +119,7 @@ html[data-theme="dark"] {
 @media (max-width: 690px){
 div.links {
 	width: 100%;
-	padding: 30px 10px;
+	padding: 40px 10px;
 }
 
 }
