@@ -30,7 +30,7 @@ div.links a.link {
 
 div.links a.link:hover, div.links a.link:active {
    background-color: var(--accent-color);
-   color: var(--card-color);
+   color: var(--white-color);
 }
 
 div.divider {
