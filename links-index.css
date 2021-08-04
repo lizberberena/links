@@ -1,125 +1,129 @@
 
-body {
-	background-color: var(--bg-color);
-}
-	
-div.links {
-	width: 680px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 40px;
-box-sizing: border-box;
 
+body {
+   background-color: var(--bg-color);
 }
+
+div.links {
+   width: 680px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 40px;
+   box-sizing: border-box;
+}
+
 div.links a {
-	width: 100%;
-	padding: 20px;
-	background-color: var(--white-color);
-	margin-bottom: 20px;
-	float: left;
-	text-align: center;
-	color: var(--text-color);
-	text-decoration: none!important;
-	font-size: 17px !important;
-line-height: 140% !important;
-box-sizing: border-box;
-transition: all .3s;
+   width: 100%;
+   padding: 20px;
+   background-color: var(--white-color);
+   margin-bottom: 20px;
+   float: left;
+   text-align: center;
+   color: var(--text-color);
+   text-decoration: none!important;
+   font-size: 17px !important;
+   line-height: 140% !important;
+   text-transform: uppercase;
+   box-sizing: border-box;
+   transition: all .3s;
 }
 
 div.links a:hover {
-	background-color: var(--accent-color);
+   background-color: var(--accent-color);
 }
 
 div.divider {
-	height: 2px;
-width: 50px;
-margin: 30px 0;
-    margin-right: 0px;
-    margin-left: 0px;
-margin-left: auto;
-margin-right: auto;
-background-color: var(--accent-color);
+   height: 2px;
+   width: 50px;
+   margin: 30px 0;
+   margin-right: 0px;
+   margin-left: 0px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: var(--accent-color);
 }
 
 span {
-	text-align: center;
-line-height: 135%;
-letter-spacing: 0.25em;
-text-transform: uppercase;
-display: block;
+   text-align: center;
+   line-height: 135%;
+   letter-spacing: 0.25em;
+   text-transform: uppercase;
+   display: block;
 }
 
 h1 {
-
-	margin-top: 25px;
-	font-size: 32px;
-	font-weight: bold;
+   margin-top: 25px;
+   font-size: 32px;
+   font-weight: bold;
 }
 
-h1, span {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+h1,
+span {
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
 }
 
-h1, p, span, a {
-	font-family: sans-serif !important;
-	color: var(--text-color);
+h1,
+p,
+span,
+a {
+   font-family: sans-serif !important;
+   color: var(--text-color);
 }
 
 img {
-	margin-left: auto;
-	margin-right: auto;
-	width: 96px;
-	height: auto;
-	border-radius: 100%;
-	display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 96px;
+   height: auto;
+   border-radius: 100%;
+   display: block;
 }
-
 
 html,
 html[data-theme="light"] {
-	--text-color: #000000;
-	--accent-color: #4C785D;
-	--card-color: #F4ECE6;
-	--white-color: #FFFFFF;
-	--bg-color: #E6DACE;
-	--shadows: rgba(138, 131, 124, 0.23);
+   --text-color: #000000;
+   --accent-color: #4C785D;
+   --card-color: #F4ECE6;
+   --white-color: #FFFFFF;
+   --bg-color: #E6DACE;
+   --shadows: rgba(138, 131, 124, 0.23);
 }
 
 html[data-theme="dark"] {
-	--text-color: lavender;
-	--accent-color: violet;
-	--card-color: #010111;
-	--white-color: #000031;
-	--bg-color: #1a1646;
-	--shadows: rgba(1, 0, 19, 0.47);
+   --text-color: lavender;
+   --accent-color: violet;
+   --card-color: #010111;
+   --white-color: #000031;
+   --bg-color: #1a1646;
+   --shadows: rgba(1, 0, 19, 0.47);
 }
 
 @media (prefers-color-scheme: dark) {
-	html,
-	html[data-theme="dark"] {
-		--text-color: lavender;
-		--accent-color: violet;
-		--card-color: #010111;
-		--white-color: #000031;
-		--bg-color: #1a1646;
-		--shadows: rgba(1, 0, 19, 0.47);
-	}
-	html[data-theme="light"] {
-		--text-color: #000000;
-		--accent-color: #4C785D;
-		--card-color: #F4ECE6;
-		--white-color: #FFFFFF;
-		--bg-color: #E6DACE;
-		--shadows: rgba(138, 131, 124, 0.23);
-	}
+   html,
+   html[data-theme="dark"] {
+      --text-color: lavender;
+      --accent-color: violet;
+      --card-color: #010111;
+      --white-color: #000031;
+      --bg-color: #1a1646;
+      --shadows: rgba(1, 0, 19, 0.47);
+   }
+   html[data-theme="light"] {
+      --text-color: #000000;
+      --accent-color: #4C785D;
+      --card-color: #F4ECE6;
+      --white-color: #FFFFFF;
+      --bg-color: #E6DACE;
+      --shadows: rgba(138, 131, 124, 0.23);
+   }
 }
 
-@media (max-width: 690px){
-div.links {
-	width: 100%;
-	padding: 40px 10px;
+@media (max-width: 690px) {
+   div.links {
+      width: 100%;
+      padding: 40px 10px;
+   }
 }
 
-}
