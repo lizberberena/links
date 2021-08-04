@@ -22,7 +22,7 @@ div.links a {
    color: var(--text-color);
    text-decoration: none!important;
    font-size: 17px !important;
-   line-height: 140% !important;
+   line-height: 35px !important;
    text-transform: uppercase;
    box-sizing: border-box;
    transition: all .3s;
