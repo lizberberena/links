@@ -81,6 +81,13 @@ img {
    display: block;
 }
 
+a.desktop {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 html,
 html[data-theme="light"] {
    --text-color: #000000;
