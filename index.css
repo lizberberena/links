@@ -93,6 +93,7 @@ a.desktop {
 }
 
 a.desktop:hover, a.desktop:active {
+    color: var(--accent-color)!important;
     cursor:pointer;
 }
 
