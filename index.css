@@ -1,4 +1,13 @@
+::-moz-selection {
+	/* Code for Firefox */
+	color: var(--accent-color);
+	background: var(--card-color);
+}
 
+::selection {
+	color: var(--accent-color);
+	background: var(--card-color);
+}
 
 body {
    background-color: var(--bg-color);
