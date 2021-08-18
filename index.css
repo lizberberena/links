@@ -13,11 +13,14 @@ body {
    background-color: var(--bg-color);
 }
 
+div.canvas {
+   padding:40px 0 20px 0;
+}
+
 div.links {
    width: 680px;
    margin-left: auto;
    margin-right: auto;
-   padding-top: 40px;
    box-sizing: border-box;
 }
 
@@ -148,7 +151,6 @@ html[data-theme="dark"] {
 @media (max-width: 690px) {
    div.links {
       width: 100%;
-      padding: 40px 20px;
    }
 }
 
