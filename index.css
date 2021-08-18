@@ -13,11 +13,8 @@ body {
    background-color: var(--bg-color);
 }
 
-div.canvas {
-   padding:40px 0 20px 0;
-}
-
 div.links {
+   padding-top:20px;
    width: 680px;
    margin-left: auto;
    margin-right: auto;
